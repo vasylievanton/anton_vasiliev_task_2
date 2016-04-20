@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "C:\\Users\\user\\Desktop\\anton_vasiliev\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\Desktop\\anton_vasiliev\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 57,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 45,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\Desktop\\anton_vasiliev\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 349,
+                        "endColumn": 45,
+                        "endOffset": 390
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endColumn": 52,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "C:\\Users\\user\\Desktop\\anton_vasiliev\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endColumn": 52,
+                        "endOffset": 443
+                    }
+                }
+            }
+        ]
+    }
+]

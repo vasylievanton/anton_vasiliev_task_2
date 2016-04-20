@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appeals_ll"
+    android:layout_margin="@dimen/list_item_margin_left_right"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        app:cardCornerRadius="@dimen/item_card_corner_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/ll_width"
+                android:padding="@dimen/item_card_corner_radius"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/image_id"
+                    android:src="@drawable/f_a_b_2_x"
+                    android:layout_gravity="center_horizontal|top"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size" />
+                <LinearLayout
+                    android:gravity="bottom|center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="@dimen/thumb_size"
+                        android:layout_height="@dimen/thumb_size"
+                        android:src="@drawable/f_a_b_2_x"
+                        android:layout_marginEnd="@dimen/list_item_margin_bottom_top"
+                        android:layout_marginRight="@dimen/list_item_margin_bottom_top"/>
+                    <TextView
+                        android:id="@+id/likes_tv"
+                        android:textSize="@dimen/likes_text_size"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/colorBackground"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="@dimen/item_card_corner_radius">
+
+                <TextView
+                    android:textColor="@color/text_color_main"
+                    android:id="@+id/id_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/id_size" />
+
+                <TextView
+                    android:id="@+id/address_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_layout"
+                    android:layout_marginBottom="8dp"
+                    android:textSize="@dimen/likes_text_size" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/date_tv"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="start|bottom"
+                        android:textSize="@dimen/likes_text_size" />
+
+                    <TextView
+                        android:id="@+id/term_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="end|bottom"
+                        android:textSize="@dimen/likes_text_size"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

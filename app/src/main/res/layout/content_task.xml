@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.task2.vasilyevanton.task_2.activities.TaskActivity"
+    tools:showIn="@layout/task_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/margin_default">
+
+            <TextView
+                android:id="@+id/main_text"
+                style="@style/mainTextStyle"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="3dp"
+                android:text="@string/main_text" />
+
+            <android.support.v7.widget.CardView style="@style/statusCardStyle">
+
+                <TextView
+                    android:id="@+id/status"
+                    style="@style/statusTextStyle"
+                    android:text="@string/status" />
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/secondaryTextStyle"
+                android:text="@string/section" />
+
+            <TextView
+                android:id="@+id/chapter"
+                style="@style/mainTextStyle"
+                android:text="@string/section_text" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_default"
+            android:background="@drawable/shape_line" />
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/secondaryTextStyle"
+                android:text="@string/create" />
+
+            <TextView
+                android:id="@+id/date_create"
+                style="@style/mainTextStyle"
+                android:text="@string/create_text" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_default"
+            android:background="@drawable/shape_line" />
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/secondaryTextStyle"
+                android:text="@string/registered" />
+
+            <TextView
+                android:id="@+id/date_register"
+                style="@style/mainTextStyle"
+                android:text="@string/registered_text" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_default"
+            android:background="@drawable/shape_line" />
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/secondaryTextStyle"
+                android:text="@string/deadline" />
+
+            <TextView
+                android:id="@+id/date_deadline"
+                style="@style/mainTextStyle"
+                android:text="@string/deadline_text" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_default"
+            android:background="@drawable/shape_line" />
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/secondaryTextStyle"
+                android:text="@string/executor" />
+
+            <TextView
+                android:id="@+id/executor"
+                style="@style/mainTextStyle"
+                android:text="@string/executor_text" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_default"
+            android:background="@drawable/shape_line" />
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                android:id="@+id/description"
+                style="@style/mainTextStyle"
+                android:gravity="left"
+                android:text="@string/description" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+

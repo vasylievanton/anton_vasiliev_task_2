@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="main_text_size">18sp</dimen>
+    <dimen name="recycler_layout_margin">4dp</dimen>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_23f8bcbf4e667699e7a9b3b3dd94700ee81c0578.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_eb1b77377b6b91898c39ba9030e49b92af7a3e2f.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_5418ef8a719e76b779b0d2baeab3456cda3ad545.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="78e01a2af8ceca59947dcbb276bbb2e23185847f">
+        <dex dex="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_e5e9e722f7a6078f1f7183161f9c7abf1b45b2a2.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_ee1f34cf03f67a9bf9c1984da0a364891dc29d1d.jar" />
+    </item>
+    <item
+        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_1afc29482c2d820d4c72c32c38be4d788b4a2433.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2ca9a8fe91ccddf5dac24764e3910907a74a97c6">
+        <dex dex="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\pre-dexed\debug\instant-run_808fb7751dac81d60c6cfceab02eef494fefae6e.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.3.0_2bd61b081f32f9bc5bc3b3e9fddff3384342fb55.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.3.0_959b2d7ceaba8daf95056ce8badf2c5ae13d7e84.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_b38c4d91940706040af897ee48f5734cfe3a6b28.jar" />
+    </item>
+    <item
+        jar="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\user\Desktop\anton_vasiliev\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.3.0_eb33aa22b2fc3b07497e3cb05ba7c9306aae10da.jar" />
+    </item>
+
+</items>

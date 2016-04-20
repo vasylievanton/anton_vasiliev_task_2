@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#ededee</color>
+    <color name="text_color_main">#040404</color>
+    <color name="text_color">#818181</color>
+
+    <color name="background_gradient_start">@color/colorPrimary</color>
+    <color name="background_gradient_center">#45b3c3</color>
+    <color name="background_gradient_end">#4a76a4</color>
+
+</resources>

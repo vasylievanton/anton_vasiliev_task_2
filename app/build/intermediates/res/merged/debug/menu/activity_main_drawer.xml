@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_issues"
+            android:id="@+id/nav_appeal"
+            android:title="@string/all_appeals" />
+        <item
+            android:icon="@drawable/ic_map"
+            android:id="@+id/nav_appeal_map"
+            android:title="@string/on_map_appeals" />
+    </group>
+
+
+    <group android:id="@+id/second_group">
+        <item
+            android:id="@+id/nav_sign_in"
+            android:title="@string/sign_in" />
+    </group>
+</menu>
